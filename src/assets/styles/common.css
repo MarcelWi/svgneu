@@ -1,0 +1,35 @@
+.main .content {
+  width: 90%;
+  height: 90vh;
+  margin: 0 auto;
+  position: relative;
+  border: 1px solid #ebebeb;
+}
+
+.main .content svg {
+  width: 100%;
+  height: 100%;
+}
+
+
+.main .content .operate {
+  width: 40%;
+  height: 100%;
+  border: 1px solid #ebebeb;
+  position: absolute;
+  left: -45%;
+  top: 0;
+}
+
+
+input[type="button"] {
+  background: #ebebeb;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  margin: 20px;
+  cursor: pointer;
+}
+
+input[type="button"]:focus {
+  outline: none;
+}
